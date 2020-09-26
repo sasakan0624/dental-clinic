@@ -1,0 +1,392 @@
+#page{
+  width: 980px;
+  margin: auto;
+}
+
+body{
+  width: 100%;
+  background-color: rgba(248, 248, 248, 0.979);
+}
+
+
+.header-container h1 {
+  float: left;
+  opacity: 0.8;
+}
+.header-number{
+  float:right;
+  line-height: 0px;
+  opacity: 0.7;
+}/*本来は予約受付を線で囲むが、できなかった*/
+
+.header-list{
+  text-align: center;
+  display: flex;
+  width: 980px;
+}
+.header-list a {
+  text-decoration: none;
+}
+.header-flex{
+  padding-left: 10px;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 196px;
+}
+.header-flex:nth-child(1) {
+  background-color:rgb(140, 221, 221);
+}
+.header-flex:nth-child(2) {
+  background-color:rgb(140, 221, 221);
+}
+.header-flex:nth-child(3) {
+  background-color:rgb(140, 221, 221);
+}
+.header-flex:nth-child(4) {
+  background-color:rgb(140, 221, 221);
+}
+.header-flex:nth-child(5) {
+  background-color:rgb(140, 221, 221);
+}
+
+.two{
+  float: right;
+}
+
+.img{
+  margin-top: 20px;
+}
+
+.infomation{
+  width: 640px;
+}
+.infomation-title h3 {
+  opacity: 0.7;
+}
+.infomation-title hr {
+  height: 3px;
+  background-color:rgb(140, 221, 221) ;
+  border: none;
+  width: 100%;
+}
+.infomation-day{
+  margin-bottom: 50px;
+}
+.infomation-list{
+  border-bottom: 2px dotted ;
+  opacity: 0.7;
+}
+.infomation-list span {
+  font-style: italic;
+}
+
+
+
+
+
+.dental{
+  border: 1px solid rgb(140, 221, 221) ;
+  margin: 20px;
+  width: 300px;
+  margin-left: 0;
+}
+.dental-name{
+  background-color: rgb(140, 221, 221);
+  margin: 0;
+}
+.dental-name h3 {
+  margin-top: 0;
+  color: white;
+  padding-right: 200px;
+}
+.dental-list li {
+  border-bottom: 1px solid rgb(140, 221, 221);
+  padding-top: 5px;
+  list-style: none;
+}/*黒点以外の使い方わからない*/
+.dental-list a {
+  text-decoration: none;
+}
+
+
+.beauty{
+  border: 1px solid rgb(140, 221, 221) ;
+  margin: 20px;
+  width: 300px;
+  margin-left: 0;
+}
+.beauty-name{
+  background-color: rgb(140, 221, 221);
+  margin: 0;
+}
+.beauty-name h3 {
+  margin-top: 0;
+  color: white;
+  padding-right: 200px;
+}
+.beauty-list li {
+  border-bottom: 1px solid rgb(140, 221, 221);
+  padding-top: 5px;
+  list-style: none;
+}
+.beauty-list a {
+  text-decoration: none;
+}
+
+
+.footer{
+  text-align: center;
+  width: 980px;
+
+}
+.footer-list ul {
+  margin-top: 50px;
+  display: flex;
+  background-color:rgb(140, 221, 221) ;
+  width: 980px;
+  padding: 5px 0px;
+}
+.footer-list li {
+  list-style: none;
+  margin: auto;
+}
+.footer-list a {
+  text-decoration: none;
+}
+.footer-number span {
+  opacity: 0.7;
+}
+.footer-number{
+  border-bottom: 3px solid rgb(140, 221, 221);
+  width: 980px;
+  text-align: right;
+}
+.footer-down{
+  clear: both;
+  text-align: center;
+  padding-top: 3px;
+}
+
+
+
+
+/*医療紹介の内容*/
+.clinic{
+  float: right;
+  border: 1px solid rgb(140, 221, 221) ;
+  margin-top: 20px;
+  width: 640px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.clinic-title{
+  background-color: rgb(140, 221, 221);
+  height:60px;
+}
+.clinic-title h2 {
+  margin-top: 0;
+  color: white;
+  padding: 13px 10px 10px 10px;
+}
+.clinic-container{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.clinic-container h3 {
+  opacity: 0.7;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(140, 221, 221);
+}
+.clinic-word{
+  padding-left: 23px;
+  padding-right: 23px;
+}
+.clinic-word h3 {
+  color:rgb(140, 221, 221) ;
+  font-size: 15px;
+  margin-top: 40px;
+}
+.clinic-word p {
+  opacity: 0.6;
+  font-size: 14px;
+}
+table{
+  width: 94%;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 150px;
+}
+table th {
+  background-color: rgb(174, 172, 177);
+}
+table td {
+  text-align: center;
+}
+
+/*診療案内の内容*/
+.service{
+  float: right;
+  border: 1px solid rgb(140, 221, 221) ;
+  margin-top: 20px;
+  width: 640px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.service-title{
+  background-color: rgb(140, 221, 221);
+  height:60px;
+}
+.service-title h2 {
+  margin-top: 0;
+  color: white;
+  padding: 13px 10px 10px 10px;
+}
+.service-container{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.service-container h3 {
+  opacity: 0.7;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(140, 221, 221);
+}
+.service-word{
+  padding-left: 23px;
+  padding-right: 23px;
+}
+.service-word h3 {
+  color:rgb(140, 221, 221) ;
+  font-size: 15px;
+  margin-top: 40px;
+}
+.service-word p {
+  opacity: 0.6;
+  font-size: 14px;
+}
+
+/*院長・スタッフ紹介の内容*/
+.staff{
+  float: right;
+  border: 1px solid rgb(140, 221, 221) ;
+  margin-top: 20px;
+  width: 640px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  height: 1362;
+}
+.staff-title{
+  background-color: rgb(140, 221, 221);
+  height:60px;
+}
+.staff-title h2 {
+  margin-top: 0;
+  color: white;
+  padding: 13px 10px 10px 10px;
+}
+.staff-container{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.staff-container h3 {
+  opacity: 0.7;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(140, 221, 221);
+}
+.staff-word{
+  padding-left: 23px;
+  padding-right: 23px;
+}
+.staff-word h3 {
+  color:rgb(140, 221, 221) ;
+  font-size: 15px;
+  margin-top: 40px;
+}
+.staff-word p {
+  opacity: 0.6;
+  font-size: 14px;
+}
+.staff-container p {
+  background-color: rgb(140, 221, 221);
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  width: 200px;
+}
+.staff-word span {
+  position: relative;
+  left: 220px;
+  bottom: 250px;
+}/*略歴を写真の右に持っていく方法がわからなかった→POSITIONで無理やり持っていった*/
+.staffs-container{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.staffs-container h3 {
+  opacity: 0.7;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(140, 221, 221);
+}
+.staffs-container p {
+  opacity: 0.6;
+  font-size: 14px;
+}
+.staff-bbb{
+  position: relative;
+  bottom: 200px;
+}
+.staffs-container{
+  position: relative;
+  bottom: 200px;
+}
+/*アクセスの内容*/
+.access{
+  float: right;
+  border: 1px solid rgb(140, 221, 221) ;
+  margin-top: 20px;
+  width: 640px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.access-title{
+  background-color: rgb(140, 221, 221);
+  height:60px;
+}
+.access-title h2 {
+  margin-top: 0;
+  color: white;
+  padding: 13px 10px 10px 10px;
+}
+.access-container{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.access-container h3 {
+  opacity: 0.7;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(140, 221, 221);
+}
+.access-word{
+  padding-left: 23px;
+  padding-right: 23px;
+}
+.access-word h3 {
+  color:rgb(140, 221, 221) ;
+  font-size: 15px;
+  margin-top: 40px;
+}
+.access-word p {
+  opacity: 0.6;
+  font-size: 14px;
+}
+.access-word hr {
+  border-color: rgb(140, 221, 221);
+  border-style: solid;
+}
+.access-word span {
+  float: right;
+}
+.access-word img {
+  padding-bottom: 20px;
+}
+/*アクセスのページ全体が小さくなるのはなぜ？*/
